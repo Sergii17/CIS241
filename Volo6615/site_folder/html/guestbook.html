@@ -1,9 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
- <title>Guestbook Page - Sergii Voloshchuk</title>
+<meta name="Keywords" content="CIW, Web Foundations Associate, Example"/>
+<meta name="Description" content="For the CIW Web Foundations Associate courses"/>
+<meta charset="utf-8"/>
+<!-- <link rel="stylesheet"  type="text/css" href="form.css"/> -->
+<title>Basic Form</title>
 </head>
+
 <body>
- <h1>Voloshchuk guestbook page, under construction</h1>
+
+<h1>Sergii Voloshchuk Guest Book</h1>
+
+
+	
+	<form
+method="post"
+action="http://ss1.ciwcertified.com/cgi-bin/process.pl">
+Enter Your Name: <input type="text" name="Name" size="40"/>
+<br/>
+<br/>
+Enter Your E-mail: <input type="text" name="Email" size="40"/>
+<br/>
+<br/>
+What city do you live in?: <input type="text" name="City" size="40"/>
+<br/>
+<br/>
+How many languages do you speak?<br/>
+<input type="radio" name="AddToList" value="1" checked="checked"/>1
+<input type="radio" name="AddToList" value="2"/>2
+<input type="radio" name="AddToList" value="3"/>3
+<input type="radio" name="AddToList" value="more than 3"/>more than 3
+<br/>
+<br/>
+What programming languages did you study at school?
+(check all
+that apply):<br/>
+<input type="checkbox" name="HTML"/> HTML<br/>
+<input type="checkbox" name="JavaScript"/> JavaScript<br/>
+<input type="checkbox" name="PHP"/> PHP<br/>
+<br/>
+<br/>
+How did you find my website? <br/>
+<select name="EmailFreq">
+<option>Friend shared me a link</option>
+<option>Advertisment on the other website </option>
+<option>By search in the internet </option>
+<option>Other </option>
+</select>
+<br/>
+<br/>
+
+<br/>
+<br/>
+Comments:<br/>
+<textarea name="comments" cols="30" rows="3">
+Enter your message here
+</textarea>
+<br/>
+<br/>
+<input type="submit"/>
+<input type="reset"/>
+</form>
+
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>
