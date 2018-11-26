@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta name="Keywords" content="CIW, Web Foundations Associate, Example"/>
+<meta name="Description" content="For the CIW Web Foundations Associate courses"/>
+<meta charset="utf-8"/>
+<!-- <link rel="stylesheet"  type="text/css" href="form.css"/> -->
+<style>
+body
+{
+font-family:arial, verdana, helvetica;
+color:black;
+font-size:14px;
+background-color:#8A2BE2;
+}
+</style>
+<title>Guest Book</title>
+</head>
+
+<body>
+
+<h1>Sergii Voloshchuk Guest Book</h1>
+
+<header>
+<div id="head"></div> 
+<div id="navbar">
+<a href="file:///C:/Users/sergi/Desktop/cis241/Volo6615/site_folder/html/home.html"><img height="58" src="../images/Home.png" width="72" id="Home" alt="Click here to get to Home page." /><a href="file:///C:/Users/sergi/Desktop/cis241/Volo6615/site_folder/html/guestbook.html"><img height="58" src="../images/Guestbook.png" width="122" id="Guestbook" alt="Click here to get to Guestbook page." /><a href="file:///C:/Users/sergi/Desktop/cis241/Volo6615/site_folder/html/interests.html"><img height="58" src="../images/interests.png" width="125"  id="interests" alt="Click here to learn about the Interests."</a><a href="file:///C:/Users/sergi/Desktop/cis241/Volo6615/site_folder/html/reflections.html"><img height="58" src="../images/Reflections.png" width="125" id="Reflections" alt="Click here to get to Reflections page." /><a href="file:///C:/Users/sergi/Desktop/cis241/Volo6615/site_folder/html/resume.html"><img height="58" src="../images/Resume.png" width="112" id="Resume" alt="Click here to get to Resume page." /></a></div>
+
+
+
+</header>
+	
+	<form
+method="post"
+action="http://ss1.ciwcertified.com/cgi-bin/process.pl">
+Enter Your Name: <input type="text" name="Name" size="40"/>
+<br/>
+<br/>
+Enter Your E-mail: <input type="text" name="Email" size="40"/>
+<br/>
+<br/>
+What city do you live in?: <input type="text" name="City" size="40"/>
+<br/>
+<br/>
+How many languages do you speak?<br/>
+<input type="radio" name="AddToList" value="1" checked="checked"/>1
+<input type="radio" name="AddToList" value="2"/>2
+<input type="radio" name="AddToList" value="3"/>3
+<input type="radio" name="AddToList" value="more than 3"/>more than 3
+<br/>
+<br/>
+What programming languages did you study at school?
+(check all
+that apply):<br/>
+<input type="checkbox" name="HTML"/> HTML<br/>
+<input type="checkbox" name="JavaScript"/> JavaScript<br/>
+<input type="checkbox" name="PHP"/> PHP<br/>
+<br/>
+<br/>
+How did you find my website? <br/>
+<select name="EmailFreq">
+<option>Friend shared me a link</option>
+<option>Advertisment on the other website </option>
+<option>By search in the internet </option>
+<option>Other </option>
+</select>
+<br/>
+<br/>
+
+<br/>
+<br/>
+Comments:<br/>
+<textarea name="comments" cols="30" rows="3">
+Enter your message here
+</textarea>
+<br/>
+<br/>
+<input type="submit"/>
+<input type="reset"/>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
