@@ -1,0 +1,15 @@
+body
+{
+font-family:arial, verdana, helvetica;
+color:black;
+font-size:14px;
+background-color:#F0FFFF;
+}
+a:link
+{
+color:#black;
+}
+a:visited
+{
+color:purple;
+}
